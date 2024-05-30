@@ -1,9 +1,69 @@
-<mxfile host="app.diagrams.net" modified="2024-05-30T05:10:45.777Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" version="24.4.10" etag="-ZlSWt2-mbd02MVeOh7y" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-30T05:29:43.980Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="XjVsoN2AXP7ARWv5gbsC" version="24.4.10" type="github">
   <diagram name="第 1 页" id="ISofojw_HMG7nGo0KJif">
-    <mxGraphModel>
+    <mxGraphModel dx="1386" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="rPOrD_DeqzDrQBqOGGLx-1" value="设备端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="60" y="80" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="rPOrD_DeqzDrQBqOGGLx-11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="rPOrD_DeqzDrQBqOGGLx-1">
+          <mxGeometry x="45" y="120" width="10" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="rPOrD_DeqzDrQBqOGGLx-2" value="OTA服务端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="340" y="80" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="rPOrD_DeqzDrQBqOGGLx-3" value="OTA控制台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="610" y="80" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="rPOrD_DeqzDrQBqOGGLx-6" value="1.1启动时请求升级" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="rPOrD_DeqzDrQBqOGGLx-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="110" y="160" as="sourcePoint" />
+            <mxPoint x="190" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPOrD_DeqzDrQBqOGGLx-8" value="2.2下发升级包URL给设备端" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="rPOrD_DeqzDrQBqOGGLx-2" target="rPOrD_DeqzDrQBqOGGLx-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="120" y="170" as="sourcePoint" />
+            <mxPoint x="400" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPOrD_DeqzDrQBqOGGLx-9" value="1.2回复需要升级包URL给设备端" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="rPOrD_DeqzDrQBqOGGLx-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="200" as="sourcePoint" />
+            <mxPoint x="110" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPOrD_DeqzDrQBqOGGLx-10" value="2.1通过控制台添加升级包，对设备发送升级请求" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="rPOrD_DeqzDrQBqOGGLx-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="650" y="200" as="sourcePoint" />
+            <mxPoint x="390" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPOrD_DeqzDrQBqOGGLx-12" value="3 通过HTTPS协议上报升级进展" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="120" y="290" as="sourcePoint" />
+            <mxPoint x="390" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPOrD_DeqzDrQBqOGGLx-13" value="4.控制台显示固件升级进度" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="390" y="290" as="sourcePoint" />
+            <mxPoint x="660" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPOrD_DeqzDrQBqOGGLx-14" value="5.设备端完成升级后，上报" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="rPOrD_DeqzDrQBqOGGLx-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="110" y="340" as="sourcePoint" />
+            <mxPoint x="380" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPOrD_DeqzDrQBqOGGLx-15" value="5.控制台显示升级成功" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="390" y="350" as="sourcePoint" />
+            <mxPoint x="660" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
