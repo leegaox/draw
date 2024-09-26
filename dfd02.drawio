@@ -1,9 +1,38 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" version="24.7.16">
   <diagram name="第 1 页" id="-58reNEPPvFzPP9FJtPT">
-    <mxGraphModel>
+    <mxGraphModel dx="1426" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="CDC8OZHRUbecoYPQvkWm-1" value="" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.externalEntity" vertex="1" parent="1">
+          <mxGeometry x="60" y="70" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="CDC8OZHRUbecoYPQvkWm-2" value="管理员" style="autosize=1;part=1;resizable=0;strokeColor=inherit;fillColor=inherit;gradientColor=inherit;" vertex="1" parent="CDC8OZHRUbecoYPQvkWm-1">
+          <mxGeometry width="60" height="30" relative="1" as="geometry">
+            <mxPoint x="-5" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CDC8OZHRUbecoYPQvkWm-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CDC8OZHRUbecoYPQvkWm-4" target="CDC8OZHRUbecoYPQvkWm-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CDC8OZHRUbecoYPQvkWm-4" value="设备管理" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="320" y="95" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CDC8OZHRUbecoYPQvkWm-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="CDC8OZHRUbecoYPQvkWm-1" target="CDC8OZHRUbecoYPQvkWm-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="170" as="sourcePoint" />
+            <mxPoint x="230.71067811865476" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CDC8OZHRUbecoYPQvkWm-6" value="创建设备" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="90" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CDC8OZHRUbecoYPQvkWm-7" value="D1" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" vertex="1" parent="1">
+          <mxGeometry x="470" y="105" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CDC8OZHRUbecoYPQvkWm-8" value="设备数据库" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="105" width="70" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
