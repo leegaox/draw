@@ -263,7 +263,7 @@
         <mxCell id="CDC8OZHRUbecoYPQvkWm-91" value="统计数据库" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="100" y="459" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="CDC8OZHRUbecoYPQvkWm-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CDC8OZHRUbecoYPQvkWm-96" target="CDC8OZHRUbecoYPQvkWm-101">
+        <mxCell id="CDC8OZHRUbecoYPQvkWm-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CDC8OZHRUbecoYPQvkWm-96" target="CDC8OZHRUbecoYPQvkWm-101">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CDC8OZHRUbecoYPQvkWm-103" value="升级" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CDC8OZHRUbecoYPQvkWm-102">
@@ -280,8 +280,13 @@
         <mxCell id="CDC8OZHRUbecoYPQvkWm-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="CDC8OZHRUbecoYPQvkWm-101" target="CDC8OZHRUbecoYPQvkWm-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="CDC8OZHRUbecoYPQvkWm-113" value="升级" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CDC8OZHRUbecoYPQvkWm-105">
+          <mxGeometry x="-0.3262" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="CDC8OZHRUbecoYPQvkWm-101" value="版本升级" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
-          <mxGeometry x="260" y="244" width="60" height="60" as="geometry" />
+          <mxGeometry x="264" y="313" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CDC8OZHRUbecoYPQvkWm-106" value="D7" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" vertex="1" parent="1">
           <mxGeometry x="98" y="313" width="100" height="30" as="geometry" />
